@@ -1,3 +1,4 @@
+@smoke
 Feature: Testing
 
   Scenario: Validate first test execution 1
@@ -15,5 +16,6 @@ Feature: Testing
   Scenario: Validate first test execution 5
     Given the user is testing the first test
 
-  Scenario: Validate first test execution 6
-    Given the user is testing the first test
+#    @chuck-norris
+#  Scenario: New Cucumber step
+#    Given the client initiates a "GET" request to "/api/chuck-norris" with API key "x-api-key"
